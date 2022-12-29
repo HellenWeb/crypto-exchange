@@ -29,8 +29,8 @@
         <li class="nav-item">
           <a class="nav-link" href="/#/about">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/HellenWeb">Github</a>
+        <li style="margin-left: 10px" class="nav-item">
+          <a href="https://github.com/HellenWeb"><button type="button" class="btn btn-dark">Github</button></a>
         </li>
       </ul>
       <!-- Left links -->
@@ -44,10 +44,10 @@
 
 <script>
 export default {
-  name: "MyNavbar"
+  name: 'MyNavbar'
 }
 </script>
 
 <style lang="">
-  
+
 </style>

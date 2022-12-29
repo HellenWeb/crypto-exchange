@@ -1,14 +1,19 @@
 <template>
   <MyNavbar />
-  <router-view></router-view>
+  <div class="container">
+    <router-view></router-view>
+  </div>
+  <MyFooter />
 </template>
 
 <script>
 import MyNavbar from '@/components/Navbar'
+import MyFooter from '@/components/Footer'
 export default {
   name: 'App',
   components: {
-    MyNavbar  
+    MyNavbar,
+    MyFooter
   }
 }
 </script>
