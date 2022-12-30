@@ -20,16 +20,4 @@ export default {
 </script>
 
 <style>
-.intro {
-  width: 100%;
-}
-
-.intro__inner {
-  text-align: center;
-  margin-top: 10%;
-}
-
-.intro__inner > h1 {
-  font-size: 50px;
-}
 </style>
